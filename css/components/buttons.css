@@ -1,0 +1,44 @@
+.get-started-header {
+    font-family: "Poppins";
+    background: #00AAFF;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+    border: 2px solid #00AAFF;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    width: 132px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;*/
+}
+
+.get-started-header:hover {
+    background: #fff;
+    border: 2px solid #00AAFF;
+    color: #00AAFF;
+    text-decoration: none;
+}
+
+.phone-blue {
+    font-family: "Poppins";
+    background: #fff;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: #00AAFF;
+    font-weight: 600;
+    font-size: 16px;
+    width: 132px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;*/
+}
+
+.phone-blue:hover {
+  text-decoration: none;
+   color: #00AAFF;
+}

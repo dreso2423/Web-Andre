@@ -1,0 +1,18 @@
+.navbar-minimalist {
+  height: 70px;
+  background: white;
+  box-shadow: 0px -2px 10px rgba(0,0,0,0.3);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.navbar-minimalist img {
+  height: 24px;
+}
+
+.cta-align {
+  flex-direction: row;
+}
+
+
