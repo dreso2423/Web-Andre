@@ -1,8 +1,12 @@
 .hero-section {
   background-size: cover;
   background-position: center;
-  height: 75vh;
-  padding: 100px 0;
+  height: 80vh;
+  padding: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .small-text{
@@ -16,6 +20,10 @@
   color: #666;
   font-weight: 300;
   margin: 0 auto;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .hero-heading {
@@ -27,10 +35,12 @@
   margin: 0 auto;
   text-shadow: 1px 1px 0 rgba(255,255,255,.9);
   text-align: center;
+ /* margin-block-start: 0.67em;
+  margin-block-end: 0.67em;*/
 }
 
 .privacy-policy{
-  margin-top: .6rem!important;
+  margin-top: 1.2rem;
   font-size: .75rem;
   font-weight: 600;
   display: block;
@@ -42,15 +52,26 @@
   color: #999;
 
 }
-
 .hero-text-start{
   font-size: 1.2rem!important;
   font-weight: 600;
+  margin-top: 3rem;
   margin-bottom: .8rem;
   color: #666;
 }
 
+.small-logo {
+  width: 150px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  margin-bottom: .8rem;
+}
+
 .star-rating-wrapper {
+  position: relative;
+  bottom: 0px;
+  left: 0;
   margin-top: 3.6rem;
   display: flex;
   align-items: center;
